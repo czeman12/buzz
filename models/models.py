@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, Float, String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from contextlib import contextmanager
-from db_manager import get_engine
+from config.db_manager import get_engine
 
 engine = get_engine()
 Base = declarative_base()

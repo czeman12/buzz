@@ -1,0 +1,87 @@
+{
+    "QWidget": {
+        "background-color": "#2e2e2e",
+        "color": "#f0f0f0"
+    },
+    "QPushButton": {
+        "background-color": "#444444",
+        "border": "1px solid #555555",
+        "padding": "10px",
+        "border-radius": "5px"
+    },
+    "QPushButton:hover": {
+        "background-color": "#555555"
+    },
+    "QLineEdit": {
+        "background-color": "#3e3e3e",
+        "border": "1px solid #555555",
+        "padding": "5px",
+        "border-radius": "3px",
+        "color": "#f0f0f0"
+    },
+    "QLineEdit::placeholder": {
+        "color": "#a0a0a0"
+    },
+    "QTableWidget": {
+        "background-color": "#3e3e3e",
+        "color": "#f0f0f0"
+    },
+    "QTableWidget::item": {
+        "padding": "10px"
+    },
+    "QLabel#TitleLabel": {
+        "color": "#ffffff"
+    },
+    "QLabel#PartNumberLabel": {
+        "color": "#f0f0f0"
+    },
+    "QLabel#PartDescriptionLabel": {
+        "color": "#f0f0f0"
+    },
+    "QHeaderView::section": {
+        "background-color": "#3e3e3e",
+        "color": "#ffffff",
+        "padding": "5px",
+        "border": "1px solid #555555",
+        "font-weight": "bold"
+    },
+    "QTabWidget::pane": {
+        "border": "1px solid #444444",
+        "background-color": "#2e2e2e"
+    },
+    "QTabBar::tab": {
+        "background-color": "#3e3e3e",
+        "color": "#f0f0f0",
+        "padding": "10px",
+        "border": "1px solid #555555",
+        "border-bottom-color": "#444444",
+        "border-top-left-radius": "4px",
+        "border-top-right-radius": "4px",
+        "min-width": "100px"
+    },
+    "QTabBar::tab:selected": {
+        "background-color": "#444444",
+        "border-bottom-color": "#2e2e2e"
+    },
+    "QTabBar::tab:hover": {
+        "background-color": "#555555"
+    },
+    "QPushButton#OpenSubWindowButton": {
+        "background-color": "transparent",
+        "border": "none"
+    },
+    "QPushButton#OpenSubWindowButton:hover": {
+        "background-color": "#555555"
+    },
+    "TitleBar": {
+        "background-color": "#2e2e2e"
+    },
+    "TitleBar QPushButton": {
+        "background-color": "#444444",
+        "color": "#f0f0f0",
+        "border": "none"
+    },
+    "TitleBar QPushButton:hover": {
+        "background-color": "#555555"
+    }
+}

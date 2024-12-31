@@ -1,0 +1,44 @@
+# Configuration for API Authentication
+api_keys:
+  polygon: "apWzPC_VbQUcpazmWoiK7ckXcSwuiBX5"
+  alpha_vantage: "59WOXC029OIH5434"
+  google_maps:
+    api_key: "AIzaSyDAzopTrrM-ZnLWGd0i8Ai8164jxOoFIWo"
+  google_places: "AIzaSyDAzopTrrM-ZnLWGd0i8Ai8164jxOoFIWo"
+  yelp_fusion: "YOUR_YELP_API_KEY"
+  foursquare_places: "YOUR_FOURSQUARE_API_KEY"
+  openweathermap: "YOUR_OPENWEATHERMAP_API_KEY"
+  aviation_edge: "YOUR_AVIATION_EDGE_API_KEY"
+  college_scorecard: "YOUR_COLLEGE_SCORECARD_API_KEY"
+  bls: "YOUR_BLS_API_KEY"
+  fema: "YOUR_FEMA_API_KEY"
+  fred: "b7fe113c2a5154b2e44c45ca3781243f"
+  onet: "YOUR_ONET_API_KEY"
+  rapidapi:
+    key: "YOUR_RAPIDAPI_KEY"
+    host: "YOUR_RAPIDAPI_HOST"
+  github:
+    user: = "czeman12"
+    ssh_passphrase: = "majorTrack"
+    signin: = "majorTrack1"
+
+database:
+  postgres_supabase:
+    host: "YOUR_DATABASE_HOST"
+    port: 5432
+    user: "Snugs"
+    password: "DG8oSnvwZh4fYSKD"
+    name: "SnugEstate"
+    project_url: "https://pqoiueimfxmcxqprgzik.supabase.co"
+    api_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBxb2l1ZWltZnhtY3hxcHJnemlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUzMzEzMTksImV4cCI6MjA1MDkwNzMxOX0.s6gnJbRFxpqFJ5ZGkFWpQ-YqFrxJIKmm_uEVvEtTyU4"
+
+  local:
+    host: "localhost"
+    port: 5432
+    user: "chris"
+    password: "easyfast"
+    name: "finance"
+
+logging:
+  level: "INFO"
+  file: "logs/app.log"

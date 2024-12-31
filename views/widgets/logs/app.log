@@ -1,0 +1,6 @@
+2024-10-17 22:10:56 - INFO - root - Application Starting...
+2024-10-17 22:10:57 - ERROR - root - config.yaml file not found.
+2024-10-17 22:10:57 - CRITICAL - root - Failed to load configurations: [Errno 2] No such file or directory: 'config/config.yaml'
+2024-10-17 22:12:47 - INFO - root - Application Starting...
+2024-10-17 22:12:47 - ERROR - root - config.yaml file not found.
+2024-10-17 22:12:47 - CRITICAL - root - Failed to load configurations: [Errno 2] No such file or directory: 'config/config.yaml'

@@ -1,0 +1,75 @@
+.
+├── .gitignore
+├── main.py
+├── assets
+│   ├── logos
+│   ├── styles
+│   │   ├── dark_theme.json
+│   │   └── light_theme.json
+│   └── templates
+├── config
+│   ├── app_config.py
+│   ├── config.ini
+│   ├── config_manager.py
+│   ├── db_manager.py
+│   └── __init__.py
+├── controllers
+│   ├── theme_controller.py
+│   └── __init__.py
+├── data
+│   ├── database.py
+│   ├── polygon_client.py
+│   ├── repositories
+│   │   └── __init__.py
+│   └── __init__.py
+├── docs
+├── factories
+│   ├── container.py
+│   ├── service_factory.py
+│   ├── session_factory.py
+│   └── __init__.py
+├── logs
+├── models
+│   ├── models.py
+│   └── __init__.py
+├── reports
+│   └── processed_reports
+├── services
+│   ├── black_scholes_service.py
+│   ├── theme_service.py
+│   └── __init__.py
+├── tests
+├── utils
+│   ├── assets.py
+│   ├── db_utils.py
+│   ├── document_utils.py
+│   ├── logger.py
+│   ├── matplotlib_style.py
+│   ├── scalable_widget.py
+│   ├── scaling_helper.py
+│   ├── session_scope.py
+│   ├── style_loader.py
+│   ├── text_utils.py
+│   ├── vtk_utils.py
+│   └── __init__.py
+└── views
+    ├── main_window.py
+    ├── title_bar.py
+    ├── dialogs
+    │   ├── settings_dialog.py
+    │   └── __init__.py
+    ├── widgets
+    │   ├── charts_widget.py
+    │   ├── environment_toggle.py
+    │   ├── heatmap_widget.py
+    │   ├── inline_entry.py
+    │   ├── issue_details_table.py
+    │   ├── issue_id_entry_widget.py
+    │   ├── pareto_chart_widget.py
+    │   ├── part_info_display_widget.py
+    │   ├── part_ncr_history_layout.py
+    │   ├── pie_charts_widget.py
+    │   ├── spinner_widget.py
+    │   ├── vtk_widget.py
+    │   └── __init__.py
+    └── __init__.py
